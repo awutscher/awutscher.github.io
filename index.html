@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="test.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!--Menubutton-->
+        <div>
+            <button class="menu fa fa-bars" onclick="openNav()"><span>&nbsp;Menü</span></button>
+            <button class="menumob fa fa-bars" onclick="openNav()"></button>
+        </div>
+        <!--Menubutton End-->
+            <div id=main>
+                    <!--overlay-->
+                    <div id="overlay">
+                        <video class="ovvideo" src="video/Ink.mp4" autoplay muted loop></video>
+                        <button class="slide-in-left" id="welcome">Welcome</button>
+                    </div>
+                    <!--overlay ende-->
+                    <!--navbar-->
+                    <div id="mySidenav" class="sidenav">
+                        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#introduction">Vorstellung</a>
+                        <a href="#lebenslauf">Lebenslauf</a>
+                        <a href="#">MMMMMMM</a>
+                        <a href="#projects">Projekte</a>
+                        <a id="fade">Overlay</a>
+                    </div>
+                    <!--navbar ende-->
+                    <!--big picture-->
+                    <div id="slides" class="fixed-bg bg-1 fade">
+                        <div id="animation1" class="animation tracking-in-contract">
+                            <p>Animation</p>
+                        </div>
+                        <div id="animation2" class="animation tracking-in-contract">
+                            <p>Hands on Mentality</p>
+                        </div>
+                        <div id="animation3" class="animation tracking-in-contract">
+                            <p>Interest</p>
+                        </div>
+                        <div id="animation4" class="animation tracking-in-contract">
+                            <p>Bla Bla Bla </p>
+                        </div>
+                    </div>
+                    <!--big picture ende-->
+                    <div id="content" class="padd">
+                        <div id="introduction" class="textcontent">
+                            <h1>Introduction</h1>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                     invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                      accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimat
+                                      a sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadi
+                                      pscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliq
+                                      uyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea 
+                                      rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor 
+                                      sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonum
+                                      y eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam volupt
+                                      ua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gube
+                                      rgren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor si
+                                      t amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labor
+                                      e et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo d
+                                      uo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ip
+                                      sum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                                       nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam volu
+                                       ptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gube
+                                       rgren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                                        amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labor
+                                        e et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et just
+                                        o duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est 
+                                        Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    <!--Lebenslauf etc.-->
+                        <div id="lebenslauf" class="flex-cards padd">
+                            <div class="card-container shadow-pop-tr">
+                                <img class="image" src="img/slider2.jpg">
+                                <div class="flex-card-content">
+                                    <p>Lebenslauf</p>
+                                    <button class="padd0 button-fullscreen"><i class="maximize fa fa-solid fa-arrows-alt" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-container shadow-pop-tr">
+                                <img class="image" src="img/slider2.jpg">
+                                <div class="flex-card-content">
+                                    <p>Ausbildungen</p>
+                                    <button class="padd0 button-fullscreen"><i class="maximize fa fa-solid fa-arrows-alt" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-container shadow-pop-tr">
+                                <img class="image" src="..documents\Zivildienst.pdf">
+                                <div class="flex-card-content">
+                                    <p>Zivildienst</p>
+                                    <button class="padd0 button-fullscreen"><i class="maximize fa fa-solid fa-arrows-alt" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    <!--Lebenslauf etc. ende-->
+                        <div id="" class="textcontent padd">
+                            <h1>Introduction</h1>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                 invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                  accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimat
+                                  a sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadi
+                                  pscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliq
+                                  uyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea 
+                                  rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor 
+                                  sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonum
+                                  y eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam volupt
+                                  ua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gube
+                                  rgren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor si
+                                  t amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labor
+                                  e et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo d
+                                  uo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ip
+                                  sum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                                   nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam volu
+                                   ptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gube
+                                   rgren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                                    amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labor
+                                    e et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et just
+                                    o duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est 
+                                    Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <!--Projects-->
+                        <div id="projects" class="flex-cards padd">
+                            <div class="card-container shadow-pop-tr">
+                                <img class="image" src="img/project_music.png">
+                                <div class="flex-card-content">
+                                    <p>Music-Projekt</p>
+                                    <button class="padd0 button-fullscreen"><i class="maximize fa fa-solid fa-arrows-alt" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-container shadow-pop-tr">
+                                <img class="image" src="img/slider2.jpg">
+                                <div class="flex-card-content">
+                                    <p>Ausbildungen</p>
+                                    <button class="padd0 button-fullscreen"><i class="maximize fa fa-solid fa-arrows-alt" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-container shadow-pop-tr">
+                                <img class="image" src="img/slider2.jpg">
+                                <div class="flex-card-content">
+                                    <p>Ausbildungen</p>
+                                    <button class="padd0 button-fullscreen"><i class="maximize fa fa-solid fa-arrows-alt" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Projects End-->
+                    </div>
+                    <!--Footer-->
+                    <div id="footer">
+
+                    </div>
+                    <!--Footer End-->
+            </div>
+    </body>
+    <!--js-->
+    <script src="jquerytest.js"></script>
+    <script src="javascript.js"></script>
+    <!--js-->
+</html>
