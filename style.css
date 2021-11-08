@@ -289,9 +289,6 @@ main
   display: none;
 }
 
-
-
-
 .animation {
   margin-left: 55vw;
   margin-right: auto;
@@ -356,9 +353,11 @@ main
 }
 
 .card-container {
+  background-image: url("img\whitestripe.jpg");
   background-color: black;
   color: #ffffff;
   border-radius: 0px 0px 0px 20px;
+  background-size: 250px 300px;
 }
 
 .image {
