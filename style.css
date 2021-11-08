@@ -344,7 +344,7 @@ main
 
 .textcontent {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   background-color: black;
   border-radius: 20px;
   margin-left: 20%;
@@ -355,9 +355,11 @@ main
 .card-container {
   background-image: url("img\whitestripe.jpg");
   background-color: black;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   border-radius: 0px 0px 0px 20px;
   background-size: 250px 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .image {
@@ -395,28 +397,28 @@ main
  */
  @-webkit-keyframes shadow-pop-tr {
   0% {
-    -webkit-box-shadow: 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff;
-            box-shadow: 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff;
+    -webkit-box-shadow: 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1);
+            box-shadow: 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1);
     -webkit-transform: translateX(0) translateY(0);
             transform: translateX(0) translateY(0);
   }
   100% {
-    -webkit-box-shadow: 1px -1px #ffffff, 2px -2px #ffffff, 3px -3px #ffffff, 4px -4px #ffffff, 5px -5px #ffffff, 6px -6px #ffffff, 7px -7px #ffffff, 8px -8px #ffffff;
-            box-shadow: 1px -1px #ffffff, 2px -2px #ffffff, 3px -3px #ffffff, 4px -4px #ffffff, 5px -5px #ffffff, 6px -6px #ffffff, 7px -7px #ffffff, 8px -8px #ffffff;
+    -webkit-box-shadow: 1px -1px rgba(4,213,255,1), 2px -2px rgba(4,213,255,1), 3px -3px rgba(4,213,255,1), 4px -4px rgba(4,213,255,1), 5px -5px rgba(4,213,255,1), 6px -6px rgba(4,213,255,1), 7px -7px rgba(4,213,255,1), 8px -8px rgba(4,213,255,1);
+            box-shadow: 1px -1px rgba(4,213,255,1), 2px -2px rgba(4,213,255,1), 3px -3px rgba(4,213,255,1), 4px -4px rgba(4,213,255,1), 5px -5px rgba(4,213,255,1), 6px -6px rgba(4,213,255,1), 7px -7px rgba(4,213,255,1), 8px -8px rgba(4,213,255,1);
     -webkit-transform: translateX(-8px) translateY(8px);
             transform: translateX(-8px) translateY(8px);
   }
 }
 @keyframes shadow-pop-tr {
   0% {
-    -webkit-box-shadow: 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff;
-            box-shadow: 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff, 0 0 #ffffff;
+    -webkit-box-shadow: 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1);
+            box-shadow: 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1), 0 0 rgba(4,213,255,1);
     -webkit-transform: translateX(0) translateY(0);
             transform: translateX(0) translateY(0);
   }
   100% {
-    -webkit-box-shadow: 1px -1px #ffffff, 2px -2px #ffffff, 3px -3px #ffffff, 4px -4px #ffffff, 5px -5px #ffffff, 6px -6px #ffffff, 7px -7px #ffffff, 8px -8px #ffffff;
-            box-shadow: 1px -1px #ffffff, 2px -2px #ffffff, 3px -3px #ffffff, 4px -4px #ffffff, 5px -5px #ffffff, 6px -6px #ffffff, 7px -7px #ffffff, 8px -8px #ffffff;
+    -webkit-box-shadow: 1px -1px rgba(4,213,255,1), 2px -2px rgba(4,213,255,1), 3px -3px rgba(4,213,255,1), 4px -4px rgba(4,213,255,1), 5px -5px rgba(4,213,255,1), 6px -6px rgba(4,213,255,1), 7px -7px rgba(4,213,255,1), 8px -8px rgba(4,213,255,1);
+            box-shadow: 1px -1px rgba(4,213,255,1), 2px -2px rgba(4,213,255,1), 3px -3px rgba(4,213,255,1), 4px -4px rgba(4,213,255,1), 5px -5px rgba(4,213,255,1), 6px -6px rgba(4,213,255,1), 7px -7px rgba(4,213,255,1), 8px -8px rgba(4,213,255,1);
     -webkit-transform: translateX(-8px) translateY(8px);
             transform: translateX(-8px) translateY(8px);
   }
