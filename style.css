@@ -338,7 +338,8 @@ main
 /* Content */
 
 #content {
-  background-image: url("img/stripes.jpg");
+  background: rgb(0,0,5);
+  background: linear-gradient(90deg, rgba(0,0,5,1) 0%, rgba(143,25,25,1) 46%, rgba(4,213,255,1) 100%);
   background-size: 100vw;
   display: flex;
   flex-direction: column;
