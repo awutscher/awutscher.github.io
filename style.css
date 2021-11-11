@@ -283,14 +283,28 @@ main
 
 .animation {
   font-size: 150%;
-  margin-left: 50vw;
-  margin-right: auto;
-  margin-top: 60vh;
   padding: 15px;
   background: transparent;
   color: beige;
   font-size: 300%;
   font-family: Courier New;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .animation {
+    margin-left: 25vw;
+    margin-right: auto;
+    margin-top: 50vh;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .animation {
+    margin-left: 50vw;
+    margin-right: auto;
+    margin-top: 60vh;
+  }
 }
 
 .fade {
@@ -328,11 +342,27 @@ main
 .arrowdown {
   font-size: 1rem;
   position: relative;
-  margin-top: 8vh;
-  margin-left: 49vw;
+  /* margin-top: 8vh;
+  margin-left: 49vw; */
   font-size: 200%;
   color: aqua;
 }
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .arrowdown {
+    margin-top: -20px;
+    margin-left: 42vw;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .arrowdown {
+    margin-top: 8vh;
+    margin-left: 49vw;
+  }
+}
+
 
 /* Content */
 
