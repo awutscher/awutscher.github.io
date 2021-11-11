@@ -73,3 +73,14 @@ async function loop () {
 };
 
 loop();
+
+/* // Lightbox
+
+function openModal1() {
+  document.getElementById("lightbox-lebenslauf").style.display = "block";
+}
+
+function closeModal1() {
+  document.getElementById("lightbox-lebenslauf").style.display = "none";
+}
+ */
