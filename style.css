@@ -9,6 +9,10 @@
   float: left;
 }
 
+.float-right {
+  float:right;
+}
+
 .flex-card-content {
   display: flex;
   justify-content: space-evenly;
@@ -398,57 +402,30 @@ main
   width: 250px;
   height: 300px;
 }
-
-/*Lightbox*/
-
-/* .modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: black;
-  background-color: rgba(0,0,0,0.4);
+.portrait {
+  height: 250px;
+  width: auto; 
+  border-radius: 50%;
+  border: solid black 1px;
+  margin: 20px;
 }
 
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto;
+.textbox {
+  border: 2px white solid;
+  border-radius: 3%;
   padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
 }
 
-.close {
-  color: rgb(0, 0, 0);
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  text-decoration: none;
-  cursor: pointer;
-}
- */
-/* Add Animation - Zoom in the Modal */
-/* .modal-content {
-  animation-name: zoom;
-  animation-duration: 0.6s;
+.flex {
+  display: flex;
+  gap: 10px 10px;
+  flex-wrap: wrap;
 }
 
-@keyframes zoom {
-  from {transform:scale(0)}
-  to {transform:scale(1)}
-} */
-
-/* 100% Image Width on Smaller Screens */
-/* @media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
-} */
+.box-m {
+  height: 250px;
+  width: 200px;
+}
 
 /* Footer */ 
 #footer {
