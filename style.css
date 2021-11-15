@@ -5,6 +5,10 @@
   transition: margin-left .5s;
 }
 
+.marg-0 {
+  margin: 0;
+}
+
 .float-left {
   float: left;
 }
@@ -402,12 +406,20 @@ main
   width: 250px;
   height: 300px;
 }
+
 .portrait {
   height: 250px;
   width: auto; 
   border-radius: 50%;
   border: solid black 1px;
   margin: 20px;
+}
+
+@media screen and (max-width: 600px){
+  .portrait {
+    height: 200px;
+    width: auto;
+  }
 }
 
 .textbox {
@@ -433,10 +445,20 @@ main
   color: white;
   width: 100%;
   background-color: black;
-  padding-left: 75%;
-  padding-right: 20%;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  margin: 0;
+}
+
+.footer {
+  margin-left: 75vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 20px;
+}
+@media screen and (max-width: 600px){
+  .footer{
+    font-size: 100%;
+    margin-left: 10vw;
+  }
 }
 
 /* Backdrop Shadow angled */
